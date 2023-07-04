@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="digitmall:war">
+    <output-path>$PROJECT_DIR$/digitmall/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>digitmall</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="digitmall-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="digitmall:war exploded" />
+    </root>
+  </artifact>
+</component>
